@@ -1,0 +1,12 @@
+name: WebDev
+type: module
+description: 'Website Development tools.'
+core_version_requirement: '^8 || ^9'
+dependencies:
+  - drupal:config
+  - config_update:config_update
+  - config_update:config_update_ui
+  - config_filter:config_filter
+  - config_normalizer:config_normalizer
+  - config_split:config_split
+  - config_ignore:config_ignore

@@ -1,0 +1,33 @@
+{
+  "name": "drupal/webdev",
+  "description": "Website Development tools.",
+  "type": "drupal-module",
+  "homepage": "https://www.drupal.org/project/webdev",
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Webship",
+      "homepage": "http://webship.org",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/webdev",
+    "source": "http://cgit.drupalcode.org/webdev"
+  },
+  "repositories": {
+    "drupal": {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  },
+  "require": {
+    "drupal/config_update": "@stable",
+    "drupal/config_filter": "@stable",
+    "drupal/config_normalizer": "@stable",
+    "drupal/config_split": "@stable",
+    "drupal/config_ignore": "@stable",
+    "drupal/devel": "@stable"
+  }
+}
