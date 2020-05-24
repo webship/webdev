@@ -29,6 +29,7 @@
     "drupal/config_normalizer": "@stable",
     "drupal/config_split": "@stable",
     "drupal/config_ignore": "@stable",
+    "drupal/config_revision": "@stable",
     "drupal/devel": "@stable"
   }
 }
