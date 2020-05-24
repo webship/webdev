@@ -7,5 +7,5 @@
 * Config Normalizer: @stable
 * Config Split: @stable
 * Config Ignore: @stable
-* Config Ignore: @stable
+* Config Revision: @stable
 * Devel: @stable
