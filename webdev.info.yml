@@ -10,4 +10,3 @@ dependencies:
   - config_normalizer:config_normalizer
   - config_split:config_split
   - config_ignore:config_ignore
-  - config_revision:config_revision
