@@ -10,3 +10,13 @@ dependencies:
   - config_normalizer:config_normalizer
   - config_split:config_split
   - config_ignore:config_ignore
+  - ctools:ctools
+  - token:token
+  - pathauto:pathauto
+  - field_group:field_group
+  - smart_trim:smart_trim
+  - entityqueue:entityqueue
+  - inline_entity_form:inline_entity_form
+  - metatag:metatag
+  - better_exposed_filters:better_exposed_filters
+  - diff:diff

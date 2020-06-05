@@ -29,6 +29,19 @@
     "drupal/config_normalizer": "@stable",
     "drupal/config_split": "@stable",
     "drupal/config_ignore": "@stable",
+    "drupal/config_inspector": "@stable",
+    "drupal/config_perms": "@stable",
+    "drupal/ctools": "@stable",
+    "drupal/token": "@stable",
+    "drupal/pathauto": "@stable",
+    "drupal/field_group": "@stable",
+    "drupal/smart_trim": "@stable",
+    "drupal/entityqueue": "@stable",
+    "drupal/inline_entity_form": "@stable",
+    "drupal/metatag": "@stable",
+    "drupal/better_exposed_filters": "@stable",
+    "drupal/shield": "@stable",
+    "drupal/diff": "@stable",
     "drupal/devel": "@stable"
   }
 }
