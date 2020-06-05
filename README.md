@@ -18,6 +18,6 @@
 * [Inline Entity Form](https://www.drupal.org/project/inline_entity_form) : @stable @enabled
 * [Metatag](https://www.drupal.org/project/metatag) : @stable @enabled
 * [Better Exposed Filters](https://www.drupal.org/project/better_exposed_filters) : @stable @enabled
+* [Diff](https://www.drupal.org/project/diff) : @stable #enabled
 * [Shield](https://www.drupal.org/project/shield) : @stable
-* [Diff](https://www.drupal.org/project/diff) : @stable
 * [Devel](https://www.drupal.org/project/devel) : @stable

@@ -40,8 +40,8 @@
     "drupal/inline_entity_form": "@stable",
     "drupal/metatag": "@stable",
     "drupal/better_exposed_filters": "@stable",
-    "drupal/shield": "@stable",
     "drupal/diff": "@stable",
+    "drupal/shield": "@stable",
     "drupal/devel": "@stable"
   }
 }
