@@ -1,7 +1,7 @@
 name: WebDev
 type: module
-description: 'Website Development tools.'
-core_version_requirement: '^8 || ^9'
+description: 'Most needed contributed modules in Website Development with Drupal.'
+core_version_requirement: ^8 || ^9
 dependencies:
   - drupal:config
   - config_update:config_update
