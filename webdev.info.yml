@@ -3,13 +3,6 @@ type: module
 description: 'Most needed contributed modules in Website Development with Drupal.'
 core_version_requirement: ^9.0
 dependencies:
-  - drupal:config
-  - config_update:config_update
-  - config_update:config_update_ui
-  - config_filter:config_filter
-  - config_normalizer:config_normalizer
-  - config_split:config_split
-  - config_ignore:config_ignore
   - ctools:ctools
   - token:token
   - pathauto:pathauto
