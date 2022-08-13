@@ -10,7 +10,7 @@ Most needed contributed modules in Websites Development with Drupal.
 * [Config Ignore](https://www.drupal.org/project/config_ignore) : @stable @enabled
 * [Configuration inspector](https://www.drupal.org/project/config_inspector) : @stable @enabled
 * [Custom Permissions](https://www.drupal.org/project/config_perms) : @stable @enabled
-* [Chaos Tool Suite (ctools)](https://www.drupal.org/project/ctools) : @stable @enabled
+* [Chaos Tool Suite (ctools)](https://www.drupal.org/project/ctools) : ~3.0 @enabled
 * [Token](https://www.drupal.org/project/token) : @stable @enabled
 * [Pathauto](https://www.drupal.org/project/pathauto) : @stable @enabled
 * [Field Group](https://www.drupal.org/project/field_group) : @stable @enabled

@@ -31,7 +31,7 @@
     "drupal/config_ignore": "@stable",
     "drupal/config_inspector": "@stable",
     "drupal/config_perms": "@stable",
-    "drupal/ctools": "@stable",
+    "drupal/ctools": "~3.0",
     "drupal/token": "@stable",
     "drupal/pathauto": "@stable",
     "drupal/field_group": "@stable",
