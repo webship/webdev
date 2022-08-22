@@ -18,9 +18,10 @@ dependencies:
   - entityqueue:entityqueue
   - inline_entity_form:inline_entity_form
   - metatag:metatag
-  - better_exposed_filters:better_exposed_filters
-  - diff:diff
-  - anonymous_redirect:anonymous_redirect
+   - anonymous_redirect:anonymous_redirect
   - user_redirect:user_redirect
   - autocomplete_deluxe:autocomplete_deluxe
   - gherkin:gherkin
+  - better_exposed_filters:better_exposed_filters
+  - diff:diff
+ 

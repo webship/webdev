@@ -39,13 +39,13 @@
     "drupal/entityqueue": "@stable",
     "drupal/inline_entity_form": "@stable",
     "drupal/metatag": "@stable",
-    "drupal/better_exposed_filters": "@stable",
-    "drupal/diff": "@stable",
-    "drupal/shield": "@stable",
-    "drupal/devel": "@stable",
     "drupal/anonymous_redirect": "@stable",
     "drupal/user_redirect": "@stable",
     "drupal/autocomplete_deluxe": "@stable",
-    "drupal/gherkin": "@stable"
+    "drupal/gherkin": "@stable",
+    "drupal/better_exposed_filters": "@stable",
+    "drupal/diff": "@stable",
+    "drupal/shield": "@stable",
+    "drupal/devel": "@stable"
   }
 }

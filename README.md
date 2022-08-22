@@ -18,11 +18,12 @@ Most needed contributed modules in Websites Development with Drupal.
 * [Entityqueue](https://www.drupal.org/project/entityqueue) : @stable @enabled
 * [Inline Entity Form](https://www.drupal.org/project/inline_entity_form) : @stable @enabled
 * [Metatag](https://www.drupal.org/project/metatag) : @stable @enabled
-* [Better Exposed Filters](https://www.drupal.org/project/better_exposed_filters) : @stable @enabled
-* [Diff](https://www.drupal.org/project/diff) : @stable #enabled
-* [Shield](https://www.drupal.org/project/shield) : @stable
-* [Devel](https://www.drupal.org/project/devel) : @stable
 * [Anonymous Redirect](https://www.drupal.org/project/anonymous_redirect) : @stable @enabled
 * [User Redirect](https://www.drupal.org/project/user_redirect) : @stable @enabled
 * [Autocomplete Deluxe](https://www.drupal.org/project/autocomplete_deluxe) : @stable @enabled
 * [Gherkin](https://www.drupal.org/project/gherkin) : @stable @enabled
+* [Better Exposed Filters](https://www.drupal.org/project/better_exposed_filters) : @stable @enabled
+* [Diff](https://www.drupal.org/project/diff) : @stable #enabled
+* [Shield](https://www.drupal.org/project/shield) : @stable
+* [Devel](https://www.drupal.org/project/devel) : @stable
+
