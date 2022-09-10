@@ -38,6 +38,7 @@
     "drupal/shield": "@stable",
     "drupal/devel": "@stable",
     "drupal/anonymous_redirect": "@stable",
-    "drupal/user_redirect": "@stable"
+    "drupal/user_redirect": "@stable",
+    "drupal/autocomplete_deluxe": "@stable"
   }
 }

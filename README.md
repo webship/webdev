@@ -18,3 +18,4 @@ Most needed contributed modules in Websites Development with Drupal.
 * [Devel](https://www.drupal.org/project/devel) : @stable
 * [Anonymous Redirect](https://www.drupal.org/project/anonymous_redirect) : @stable
 * [User Redirect](https://www.drupal.org/project/user_redirect) : @stable
+* [Autocomplete Deluxe](https://www.drupal.org/project/autocomplete_deluxe) : @stable
