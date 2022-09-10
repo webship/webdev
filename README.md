@@ -16,3 +16,4 @@ Most needed contributed modules in Websites Development with Drupal.
 * [Diff](https://www.drupal.org/project/diff) : @stable #enabled
 * [Shield](https://www.drupal.org/project/shield) : @stable
 * [Devel](https://www.drupal.org/project/devel) : @stable
+* [Anonymous Redirect](https://www.drupal.org/project/anonymous_redirect) : @stable
