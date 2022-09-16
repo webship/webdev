@@ -3,7 +3,7 @@
 ### Website Development Tools.
 Most needed contributed modules in Websites Development with Drupal.
 
-* [Ctools)](https://www.drupal.org/project/ctools) : `~3.0` **enabled**
+* [Ctools](https://www.drupal.org/project/ctools) : `~3.0` **enabled**
 * [Token](https://www.drupal.org/project/token) : `~1.0` **enabled**
 * [Diff](https://www.drupal.org/project/diff) : `~1.0` **enabled**
 * [Pathauto](https://www.drupal.org/project/pathauto) : `~1.0` **enabled**
