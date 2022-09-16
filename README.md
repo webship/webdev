@@ -18,4 +18,3 @@ Most needed contributed modules in Websites Development with Drupal.
 * [Anonymous Redirect](https://www.drupal.org/project/anonymous_redirect) : `~2.0`
 * [User Redirect](https://www.drupal.org/project/user_redirect) : `~2.0`
 * [Autocomplete Deluxe](https://www.drupal.org/project/autocomplete_deluxe) : `~2.0`
-* [Entityqueue](https://www.drupal.org/project/entityqueue) : `~1.0`
