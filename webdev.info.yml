@@ -12,3 +12,4 @@ dependencies:
   - smart_trim:smart_trim
   - inline_entity_form:inline_entity_form
   - better_exposed_filters:better_exposed_filters
+  - link_attributes:link_attributes
