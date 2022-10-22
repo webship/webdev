@@ -18,5 +18,6 @@ Most needed contributed modules in Websites Development with Drupal.
 * [Anonymous Redirect](https://www.drupal.org/project/anonymous_redirect) : `~2.0`
 * [User Redirect](https://www.drupal.org/project/user_redirect) : `~2.0`
 * [Autocomplete Deluxe](https://www.drupal.org/project/autocomplete_deluxe) : `~2.0`
-* [Link Attributes](https://www.drupal.org/project/link_attributes) : `~1.0`
-* [Token Filter](https://www.drupal.org/project/token_filter) : `~1.0`
+* [Link Attributes](https://www.drupal.org/project/link_attributes) : `~1.0` **enabled**
+* [Token Filter](https://www.drupal.org/project/token_filter) : `~1.0` **enabled**
+* [Default Content](https://www.drupal.org/project/default_content) : `~2.0`
