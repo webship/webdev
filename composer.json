@@ -35,7 +35,6 @@
     "drupal/better_exposed_filters": "~6.0",
     "drupal/shield": "~1.0",
     "drupal/devel": "~5.0",
-    "drupal/anonymous_redirect": "~2.0",
     "drupal/user_redirect": "~2.0",
     "drupal/autocomplete_deluxe": "~2.0",
     "drupal/link_attributes": "~1.0",
