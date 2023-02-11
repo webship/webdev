@@ -10,6 +10,7 @@ dependencies:
   - metatag:metatag
   - field_group:field_group
   - smart_trim:smart_trim
+  - entityqueue:entityqueue
   - inline_entity_form:inline_entity_form
   - better_exposed_filters:better_exposed_filters
   - link_attributes:link_attributes
