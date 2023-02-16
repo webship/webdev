@@ -19,7 +19,7 @@
   "repositories": {
     "drupal": {
       "type": "composer",
-      "url": "https://packages.drupal.org/8"
+      "url": "https://packages.drupal.org/10"
     }
   },
   "require": {
@@ -31,7 +31,7 @@
     "drupal/metatag": "~1.0",
     "drupal/field_group": "~3.0",
     "drupal/smart_trim": "~2.0",
-    "drupal/entityqueue": "~1.6",
+    "drupal/entityqueue": "~1.0",
     "drupal/inline_entity_form": "~1.0",
     "drupal/better_exposed_filters": "~6.0",
     "drupal/shield": "~1.0",
