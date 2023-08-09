@@ -1,7 +1,7 @@
 {
-  "name": "webblog",
+  "name": "webdev",
   "private": true,
-  "description": "Create Web Blog content type, and make views to display content.",
+  "description": "Create Web Development content type, and make views to display content.",
   "license": "GPL-2.0",
   "engines": {
     "yarn": ">= 1.6",
@@ -9,8 +9,8 @@
   },
   "keywords": [
     "Drupal",
-    "Web Blog",
-    "Blog",
+    "Web Development",
+    "Development",
     "Webship"
   ],
   "author": "Webship.co",
