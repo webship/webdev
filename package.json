@@ -9,10 +9,11 @@
   },
   "keywords": [
     "Drupal",
-    "Webship",
-    "Web Development"
+    "Web Development",
+    "Development",
+    "Webship"
   ],
-  "author": "Webship",
+  "author": "Webship.co",
   "scripts": {
     "phpcs": "phpcs --standard=./.phpcs.xml .",
     "phpcbf": "phpcbf --standard=./.phpcs.xml .",
