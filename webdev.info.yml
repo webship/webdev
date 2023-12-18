@@ -1,7 +1,7 @@
 name: Web Development
 type: module
-description: 'Most needed contributed modules in Website Development with Drupal.'
-core_version_requirement: ~10.0
+description: Most needed contributed modules in Website Development with Drupal.
+core_version_requirement: ~10.2.0
 dependencies:
   - ctools:ctools
   - token:token
