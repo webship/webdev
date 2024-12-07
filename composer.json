@@ -7,8 +7,8 @@
   "minimum-stability": "dev",
   "authors": [
     {
-      "name": "Webship",
-      "homepage": "http://webship.org",
+      "name": "Webship.co",
+      "homepage": "http://webship.co",
       "role": "Maintainer"
     }
   ],
@@ -34,7 +34,7 @@
     "drupal/smart_trim": "~2.0",
     "drupal/entityqueue": "~1.0",
     "drupal/inline_entity_form": "~3.0",
-    "drupal/better_exposed_filters": "~6.0",
+    "drupal/better_exposed_filters": "~7.0",
     "drupal/shield": "~1.0",
     "drupal/devel": "~5.0",
     "drupal/user_redirect": "~2.0",
