@@ -15,3 +15,4 @@ dependencies:
   - better_exposed_filters:better_exposed_filters
   - link_attributes:link_attributes
   - token_filter:token_filter
+  
