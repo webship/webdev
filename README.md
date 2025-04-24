@@ -8,7 +8,7 @@ Most needed contributed modules in Websites Development with Drupal.
 * [Diff](https://www.drupal.org/project/diff) : `~1.0` **enabled**
 * [Pathauto](https://www.drupal.org/project/pathauto) : `~1.0` **enabled**
 * [Metatag](https://www.drupal.org/project/metatag) : `~2.1.0` **enabled**
-* [Field Group](https://www.drupal.org/project/field_group) : `~3.0` **enabled**
+* [Field Group](https://www.drupal.org/project/field_group) : `~4.0` **enabled**
 * [Smart Trim](https://www.drupal.org/project/smart_trim) : `~3.0` **enabled**
 * [Entity Queue](https://www.drupal.org/project/entityqueue) : `~1.0` **enabled**
 * [Inline Entity Form](https://www.drupal.org/project/inline_entity_form) : `~1.0` **enabled**
