@@ -40,7 +40,6 @@
     "drupal/user_redirect": "~2.0",
     "drupal/autocomplete_deluxe": "~2.0",
     "drupal/link_attributes": "~2.1.0",
-    "drupal/token_filter": "~2.0",
-    "drupal/default_content": "~2.0"
+    "drupal/token_filter": "~2.0"
   }
 }
