@@ -27,7 +27,7 @@
     "drupal/webpatches": "11.0.x-dev",
     "drupal/ctools": "~4.0",
     "drupal/token": "~1.0",
-    "drupal/diff": "~1.0",
+    "drupal/diff": "~2.0",
     "drupal/pathauto": "~1.0",
     "drupal/metatag": "~2.1.0",
     "drupal/field_group": "~4.0",

@@ -5,7 +5,7 @@ Most needed contributed modules in Websites Development with Drupal.
 
 * [Ctools](https://www.drupal.org/project/ctools) : `~3.0` **enabled**
 * [Token](https://www.drupal.org/project/token) : `~1.0` **enabled**
-* [Diff](https://www.drupal.org/project/diff) : `~1.0` **enabled**
+* [Diff](https://www.drupal.org/project/diff) : `~2.0` **enabled**
 * [Pathauto](https://www.drupal.org/project/pathauto) : `~1.0` **enabled**
 * [Metatag](https://www.drupal.org/project/metatag) : `~2.1.0` **enabled**
 * [Field Group](https://www.drupal.org/project/field_group) : `~4.0` **enabled**
