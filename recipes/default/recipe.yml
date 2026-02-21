@@ -1,0 +1,31 @@
+name: Web Development - Default
+description: A recipe to manage default installed modules, configs and permissions.
+type: install
+install:
+  - ctools
+  - token
+  - diff
+  - pathauto
+  - metatag
+  - field_group
+  - smart_trim
+  - entityqueue
+  - inline_entity_form
+  - better_exposed_filters
+  - link_attributes
+  - token_filter
+config:
+  strict: false
+  import:
+    ctools: '*'
+    token: '*'
+    diff: '*'
+    pathauto: '*'
+    metatag: '*'
+    field_group: '*'
+    smart_trim: '*'
+    entityqueue: '*'
+    inline_entity_form: '*'
+    better_exposed_filters: '*'
+    link_attributes: '*'
+    token_filter: '*'

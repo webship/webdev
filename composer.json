@@ -23,13 +23,12 @@
     }
   },
   "require": {
-    "drupal/core": "~11.1.0",
-    "drupal/webpatches": "11.0.x-dev",
+    "drupal/core": "~11.3.0",
     "drupal/ctools": "~4.0",
     "drupal/token": "~1.0",
-    "drupal/diff": "~1.0",
+    "drupal/diff": "~2.0",
     "drupal/pathauto": "~1.0",
-    "drupal/metatag": "~2.1.0",
+    "drupal/metatag": "~2.2.0",
     "drupal/field_group": "~4.0",
     "drupal/smart_trim": "~2.0",
     "drupal/entityqueue": "~1.0",
