@@ -23,7 +23,7 @@
     }
   },
   "require": {
-    "drupal/core": "~11.3.0",
+    "drupal/core": "~11.4.0",
     "drupal/ctools": "~4.0",
     "drupal/token": "~1.0",
     "drupal/diff": "~2.0",

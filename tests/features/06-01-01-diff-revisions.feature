@@ -15,6 +15,10 @@ Feature: Comparing content revisions with Diff
      And I fill in the "Title" field with "Diff revision article version two"
      And I click the "Save" button
     Then I should see "Diff revision article version two"
-    When I click the "Revisions" link
+    # Drupal 11.4's Olivero admin top bar collapses secondary node-view links
+    # (Delete, Revisions) behind a "More actions" toggle button; open it
+    # before the "Revisions" link is clickable.
+    When I click the "More actions" button
+    And I click the "Revisions" link
     Then I should see "Revisions"
      And I should see "Compare selected revisions"
