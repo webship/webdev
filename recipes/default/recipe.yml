@@ -14,6 +14,31 @@ install:
   - better_exposed_filters
   - link_attributes
   - token_filter
+  # UI Patterns 2.
+  - ui_patterns
+  - ui_patterns_blocks
+  - ui_patterns_field
+  - ui_patterns_field_formatters
+  - ui_patterns_layouts
+  - ui_patterns_library
+  - ui_patterns_views
+  # UI Styles.
+  - ui_styles
+  - ui_styles_block
+  - ui_styles_library
+  - ui_styles_ui_patterns
+  # UI Icons.
+  - ui_icons
+  - ui_icons_library
+  - ui_icons_patterns
+  # UI Skins.
+  - ui_skins
+  # Display Builder.
+  - display_builder
+  - display_builder_entity_view
+  - display_builder_page_layout
+  - display_builder_ui
+  - display_builder_views
 config:
   strict: false
   import:
@@ -29,3 +54,8 @@ config:
     better_exposed_filters: '*'
     link_attributes: '*'
     token_filter: '*'
+    # Optional config is not installed by recipes: the default profile and the
+    # text format of Display Builder.
+    display_builder:
+      - display_builder.profile.default
+      - filter.format.display_builder_html

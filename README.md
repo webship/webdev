@@ -21,3 +21,18 @@ Most needed contributed modules in Websites Development with Drupal.
 * [Token Filter](https://www.drupal.org/project/token_filter) : `~2.0` **enabled**
 * [Default Content](https://www.drupal.org/project/default_content) : `~2.0`
 
+### Site building with UI Suite and Display Builder
+The default recipe also includes the UI Suite and Display Builder modules, ready
+for building displays, layouts and pages with components. It imports the
+default Display Builder profile and the Display Builder HTML text format.
+
+* [UI Patterns](https://www.drupal.org/project/ui_patterns) : `^2.0.21` **enabled**
+  (with Blocks, Field, Field formatters, Layouts, Library and Views)
+* [UI Styles](https://www.drupal.org/project/ui_styles) : `^1.22` **enabled**
+  (with Block, Library and UI Patterns)
+* [UI Icons](https://www.drupal.org/project/ui_icons) : `^2.0` **enabled**
+  (with Library and Patterns)
+* [UI Skins](https://www.drupal.org/project/ui_skins) : `^1.2` **enabled**
+* [Display Builder](https://www.drupal.org/project/display_builder) : `^1.0@beta` **enabled**
+  (with Entity view, Page layout, UI and Views)
+
