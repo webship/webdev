@@ -39,6 +39,8 @@ install:
   - display_builder_page_layout
   - display_builder_ui
   - display_builder_views
+  # Last, after its dependencies: the Web Development module itself.
+  - webdev
 config:
   strict: false
   import:
