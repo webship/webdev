@@ -42,7 +42,7 @@
     "drupal/token_filter": "~2.0",
     "drupal/ui_patterns": "^2.0.21",
     "drupal/ui_styles": "^1.22",
-    "drupal/ui_icons": "^2.0",
+    "drupal/ui_icons": "^1.1 || ^2.0",
     "drupal/ui_skins": "^1.2",
     "drupal/display_builder": "^1.0@beta"
   }
