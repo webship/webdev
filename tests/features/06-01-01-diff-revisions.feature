@@ -11,6 +11,10 @@ Feature: Comparing content revisions with Diff
      And I fill in the "Title" field with "Diff revision article"
      And I click the "Save" button
     Then I should see "Diff revision article"
+    # A node page carries two "Edit" links: the visible one in the top bar and
+    # a hidden contextual link. Wait for the top bar before clicking, so the
+    # step does not race the page that was just saved.
+     And the "Edit" link should be visible within 15 seconds
     When I click the "Edit" link
      And I fill in the "Title" field with "Diff revision article version two"
      And I click the "Save" button
