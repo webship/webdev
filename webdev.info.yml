@@ -2,3 +2,41 @@ name: Web Development
 type: module
 description: Most needed contributed modules in Website Development with Drupal.
 core_version_requirement: ^11.4 || ^12
+# The modules the default recipe installs. Declared here, so Drupal installs
+# them in the same batch before hook_install() applies the recipe: installing
+# them from inside hook_install() would rebuild the container and leave the
+# config installer of the outer batch in syncing mode, so later modules in the
+# batch would lose their default config entities.
+dependencies:
+  - ctools:ctools
+  - token:token
+  - diff:diff
+  - pathauto:pathauto
+  - metatag:metatag
+  - field_group:field_group
+  - smart_trim:smart_trim
+  - entityqueue:entityqueue
+  - inline_entity_form:inline_entity_form
+  - better_exposed_filters:better_exposed_filters
+  - link_attributes:link_attributes
+  - token_filter:token_filter
+  - ui_patterns:ui_patterns
+  - ui_patterns:ui_patterns_blocks
+  - ui_patterns:ui_patterns_field
+  - ui_patterns:ui_patterns_field_formatters
+  - ui_patterns:ui_patterns_layouts
+  - ui_patterns:ui_patterns_library
+  - ui_patterns:ui_patterns_views
+  - ui_styles:ui_styles
+  - ui_styles:ui_styles_block
+  - ui_styles:ui_styles_library
+  - ui_styles:ui_styles_ui_patterns
+  - ui_icons:ui_icons
+  - ui_icons:ui_icons_library
+  - ui_icons:ui_icons_patterns
+  - ui_skins:ui_skins
+  - display_builder:display_builder
+  - display_builder:display_builder_entity_view
+  - display_builder:display_builder_page_layout
+  - display_builder:display_builder_ui
+  - display_builder:display_builder_views
