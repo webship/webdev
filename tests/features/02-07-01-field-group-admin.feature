@@ -6,14 +6,14 @@ Feature: Field Group on manage form display
   Background:
     Given I am a logged in user with the "Webmaster" user
 
-  Scenario: Article manage form display offers the Add field group control
-    When I navigate to "/admin/structure/types/manage/article/form-display"
+  Scenario: Basic page manage form display offers the Add field group control
+    When I navigate to "/admin/structure/types/manage/page/form-display"
     Then I should see "Manage form display"
      And I should see "Add field group"
 
-  Scenario: Article manage display offers the Add field group control
+  Scenario: Basic page manage display offers the Add field group control
     # Drupal 11.4 turned "/display" into a view-modes overview page (Default,
     # RSS, Teaser, ...); the field/group editing UI now lives one level
     # deeper, at "/display/default".
-    When I navigate to "/admin/structure/types/manage/article/display/default"
+    When I navigate to "/admin/structure/types/manage/page/display/default"
     Then I should see "Add field group"

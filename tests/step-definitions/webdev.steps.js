@@ -118,3 +118,32 @@ When(/^(?:I |we )?fill in the "([^"]*)" field with "([^"]*)"$/, async function (
     await this.page.getByLabel(label, { exact: false }).first().fill(value);
   }, `Could not fill the "${label}" field`);
 });
+
+/**
+ * Open the revisions page of the content item on screen (`/node/<nid>/revisions`).
+ *
+ * The id comes from what core prints on every node page (the current path in
+ * drupalSettings, else the shortlink), so the step does not depend on how a
+ * theme shows the local tasks.
+ *
+ * Example #1: When I open the revisions of the content item I am viewing
+ * Example #2: And we open the revisions of the content item we are viewing
+ */
+When(/^(?:I |we )?open the revisions of the content item (?:I am|we are) viewing$/, async function () {
+  await attempt(async () => {
+    const nid = await this.page.evaluate(() => {
+      const current = (window.drupalSettings && window.drupalSettings.path && window.drupalSettings.path.currentPath) || '';
+      const fromSettings = current.match(/^node\/(\d+)/);
+      if (fromSettings) {
+        return fromSettings[1];
+      }
+      const shortlink = document.querySelector('link[rel="shortlink"]');
+      const fromLink = shortlink && shortlink.getAttribute('href').match(/\/node\/(\d+)/);
+      return fromLink ? fromLink[1] : null;
+    });
+    if (!nid) {
+      throw new Error(`No content item id on ${this.page.url()}`);
+    }
+    await this.page.goto(`${this.parameters.launchUrl}/node/${nid}/revisions`, { waitUntil: 'domcontentloaded' });
+  }, 'Could not open the revisions of the content item on screen');
+});

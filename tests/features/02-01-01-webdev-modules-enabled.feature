@@ -7,17 +7,16 @@ Feature: Web Development bundled modules are enabled
     Given I am a logged in user with the "Webmaster" user
 
   Scenario: Modules report page lists Web Development as enabled
-    When I navigate to "/admin/modules"
-    Then I should see "Web Development"
-     And I should see "Chaos Tools"
-     And I should see "Token"
-     And I should see "Diff"
-     And I should see "Pathauto"
-     And I should see "Metatag"
-     And I should see "Field Group"
-     And I should see "Smart Trim"
-     And I should see "Entityqueue"
-     And I should see "Inline Entity Form"
-     And I should see "Better Exposed Filters"
-     And I should see "Link Attributes"
-     And I should see "Token Filter"
+    Then the "webdev" module should be installed
+     And the "ctools" module should be installed
+     And the "token" module should be installed
+     And the "diff" module should be installed
+     And the "pathauto" module should be installed
+     And the "metatag" module should be installed
+     And the "field_group" module should be installed
+     And the "smart_trim" module should be installed
+     And the "entityqueue" module should be installed
+     And the "inline_entity_form" module should be installed
+     And the "better_exposed_filters" module should be installed
+     And the "link_attributes" module should be installed
+     And the "token_filter" module should be installed
